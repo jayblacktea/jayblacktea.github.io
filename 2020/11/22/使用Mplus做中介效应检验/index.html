@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>如何将hexo部署到github page上 - THE WORLD</title>
+  <title>如何使用Mplus做中介效应检验 - THE WORLD</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -165,8 +165,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-10-22 16:21" pubdate>
-        2020年10月22日 下午
+      <time datetime="2020-11-22 12:21" pubdate>
+        2020年11月22日 中午
       </time>
     </span>
   
@@ -177,7 +177,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      527 字
+      121 字
     </span>
   
 
@@ -187,7 +187,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      6
+      1
        分钟
     </span>
   
@@ -217,44 +217,38 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto" id="post">
             <!-- SEO header -->
-            <h1 style="display: none">如何将hexo部署到github page上</h1>
+            <h1 style="display: none">如何使用Mplus做中介效应检验</h1>
             
             <div class="markdown-body" id="post-body">
-              <table>
-<thead>
-<tr>
-<th align="center">视频链接</th>
-<th align="right">提取码</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1sK2dH8I9rz1vAmu9ApP1xg">https://pan.baidu.com/s/1sK2dH8I9rz1vAmu9ApP1xg</a></td>
-<td align="right">提取码: uvjf</td>
-</tr>
-</tbody></table>
-<p style="text-align:center"><span  style="font-size:2em;"><span  style="color: #519D9E; ">配合视频观看效果更好</span></p>
+              <p style="text-align:center"><span  style="font-size:2em;"><span  style="color: #519D9E; ">配合视频观看效果更好</span></p>
 
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><ol>
-<li>点击start project 或者下面的new repository 创建一个新的仓库</li>
-<li>Github仅能用一个同名仓库的代码托管一个静态站点</li>
-<li>然后打开仓库创建一个 index.html 文件</li>
-<li>后面把hexo的文件部署就可以在网站上看到博客</li>
-<li><span  style="color: #519D9E; ">git config –global user.name</span> 你的GitHub用户名</li>
-<li><span  style="color: #519D9E; ">git config –global user.email</span> 你的GitHub注册邮箱</li>
-<li><span  style="color: #519D9E; ">ssh-keygen -t rsa -C</span> github注册邮箱</li>
-<li>按三次回车</li>
-<li>电脑/用户/用户名/.ssh 文件夹 用记事本打开</li>
-<li>打开github设置keys  <span  style="color: #519D9E; ">（如何在仓库的设置不成功，请点击github的头像里面的设置，左边的栏目有一个SSH and GPG keys 请在此处设置，和视频中设置方法一致）</span></li>
-<li>设置完输入<span  style="color: #519D9E; ">ssh <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;</a></span>判断是否成功</li>
-<li>这里之所以设置GitHub密钥原因是，通过非对称加密的公钥与私钥来完成加密，公钥放置在GitHub上，私钥放置在自己的电脑里。GitHub要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了ssh，当你推送的时候，git就会匹配你的私钥跟GitHub上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</li>
-<li>打开站点配置文件config 填写自己创建的github仓库的完整路径 记得加上.git（示例：<a target="_blank" rel="noopener" href="https://github.com/%E7%94%A8%E6%88%B7%E5%90%8D/%E7%94%A8%E6%88%B7%E5%90%8D.github.io.git%EF%BC%89">https://github.com/用户名/用户名.github.io.git）</a></li>
-<li>输入命令<span  style="color: #519D9E; ">npm install hexo-deployer-git –save</span></li>
-<li>Hexo clean hexo g hexo d</li>
-</ol>
-<p style="text-align:center"><span  style="font-size:1.2em;"><span  style="color: #519D9E; ">视频最后由于一些原因，网页地址不是用户名.github.io，如果自己创建，直接使用用户名.github.io进入博客即可</span></p>
 
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000017986794">https://segmentfault.com/a/1190000017986794</a>
-<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/26625249">https://zhuanlan.zhihu.com/p/26625249</a>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1Uy4y1z797"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+</div>
+
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p><span  style="color: #519D9E; ">DATA：</span> </p>
+<pre><code> FILE IS C:\Users\红茶\Desktop\高级心理统计\11第十一章 中介分析\11_1 med.dat; </code></pre>
+<p><span  style="color: #519D9E; ">（输入数据）</span> </p>
+<p><span  style="color: #519D9E; ">VARIABLE：</span> </p>
+<pre><code>names are nrel_m prel_m pem_m nem_m sat_m;</code></pre>
+<p>  <span  style="color: #519D9E; ">（输入变量）</span> </p>
+<pre><code>usevar = nrel_m prel_m pem_m nem_m sat_m ;</code></pre>
+<p>   <span  style="color: #519D9E; ">（使用变量）</span> </p>
+<p><span  style="color: #519D9E; ">ANALYSIS:</span> </p>
+<pre><code>                 bootstrap=1000;</code></pre>
+<p><span  style="color: #519D9E; ">（分析方法）</span> </p>
+<p><span  style="color: #519D9E; ">MODEL:</span> </p>
+<pre><code> sat_m on pem_m nem_m prel_m nrel_m;
+ pem_m on prel_m;
+ nem_m on nrel_m;</code></pre>
+<p><span  style="color: #519D9E; ">MODEL INDIRECT:</span> </p>
+<pre><code>            sat_m ind pem_m prel_m;
+            sat_m ind nem_m nrel_m;  </code></pre>
+<p><span  style="color: #519D9E; ">OUTPUT:</span> </p>
+<pre><code>            cinterval standardized;     </code></pre>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1jK4y1j7ei?from=search&amp;seid=9229677945130148037">https://www.bilibili.com/video/BV1jK4y1j7ei?from=search&amp;seid=9229677945130148037</a>
+<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Z4411K7xB?from=search&amp;seid=10303927436763481145">https://www.bilibili.com/video/BV1Z4411K7xB?from=search&amp;seid=10303927436763481145</a>
 <a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
             </div>
             <hr>
@@ -283,18 +277,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2020/10/28/%E5%A6%82%E4%BD%95%E7%94%A8R%E8%AF%AD%E8%A8%80%E5%B0%86%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0%E8%BD%AC%E4%B8%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%9B%BE/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">如何使用R语言制作相关系数的可视化图表</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2020/10/21/%E5%AE%9E%E9%AA%8C%E5%B7%A5%E7%A8%8B%E5%BF%83%E7%90%86%E5%AD%A6%E7%AC%AC%E4%B8%80%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A/">
-                        <span class="hidden-mobile">实验工程心理学第一二周作业</span>
+                      <a href="/2020/10/28/%E5%A6%82%E4%BD%95%E7%94%A8R%E8%AF%AD%E8%A8%80%E5%B0%86%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0%E8%BD%AC%E4%B8%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%9B%BE/">
+                        <span class="hidden-mobile">如何使用R语言制作相关系数的可视化图表</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -437,7 +425,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "如何将hexo部署到github page上&nbsp;",
+        "如何使用Mplus做中介效应检验&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 60,
